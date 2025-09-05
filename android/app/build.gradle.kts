@@ -25,11 +25,6 @@ android {
         versionCode = flutter.versionCode
         versionName = flutter.versionName
 
-        manifestPlaceholders["facebook_app_id"] = "1137422418240396"
-        manifestPlaceholders["facebook_client_token"] = "4503f94f70fbe41e68ad8098f7fd0f55"
-        manifestPlaceholders["fb_login_protocol_scheme"] = "fb1137422418240396"
-    }
-
     buildTypes {
         release {
             signingConfig = signingConfigs.getByName("debug")
